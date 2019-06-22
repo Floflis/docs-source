@@ -1,0 +1,9 @@
+site_name: Floflis Docs
+theme:
+  name: 'material'
+nav:
+    - Welcome to Floflis: index.md
+    - Floflis Central app: flofliscentral.md
+    - Tree folder: treefolder.md
+    - Floflis files: floflisfiles.md
+    - Frequently Asked Questions: faq.md
