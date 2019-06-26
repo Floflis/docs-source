@@ -43,6 +43,12 @@ Unlike Chrome OS, Floflis thinks all apps should be offline-first, and focusing 
 
 Most Electron apps relies on NPM packages. But Floflis' packages aren't automatically updated, and NPM will be replaced by a decentralized package manager: APM (Aragon Package Manager).
 
+## Can I develop apps, games, .HTML5 files and fonts for Floflis?
+
+Yes, of course.
+
+Just head up to our [Developers section](/dev/).
+
 ### Do you have a new question?
 
 You're welcome to ask it or suggest improvements, in our [GitHub repo](https://github.com/Floflis/docs/issues).

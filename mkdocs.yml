@@ -1,9 +1,51 @@
+# Project information
 site_name: Floflis Docs
+site_description: 'Official documentation for Floflis OS'
+site_author: 'Daniell Mesquita'
+site_url: 'https://floflis.github.io/docs'
+
+# Repository
+repo_name: 'Floflis/docs-source'
+repo_url: 'https://github.com/Floflis/docs-source'
+
+# Copyright
+copyright: '(c) 2011-2019 Floflis OS'
+
+# Configuration
 theme:
   name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/floflis'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Navigation
 nav:
     - Welcome to Floflis: index.md
     - Floflis Central app: flofliscentral.md
     - Tree folder: treefolder.md
     - Floflis files: floflisfiles.md
+    - Developers: dev.md
     - Frequently Asked Questions: faq.md
+    - Return to site: https://floflis.github.io/

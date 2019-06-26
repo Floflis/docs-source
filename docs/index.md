@@ -1,6 +1,6 @@
 # Welcome to Floflis
 
-<img src="/img/screen/welcome.png"/>
+![](img/screen/welcome.png)
 
 This full documentation will guide you from basic to advanced.
 

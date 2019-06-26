@@ -7,7 +7,7 @@ As root represents the complex structure of a tree, Floflis implemented the tree
 
 ## The tree folder
 
-<img src="/img/screen/treefolder/treeinroot.png"/>
+![](img/screen/treefolder/treeinroot.png)
 
 Tree is a folder named "1" inside the root directory.
 
@@ -19,7 +19,7 @@ Referring to Linux, tree is equivalent to `/home` folder, with write access gran
 
 ## Subfolders
 
-<img src="/img/screen/treefolder/thetree.png"/>
+![](img/screen/treefolder/thetree.png)
 
 Some folders are original of tree, but others are symlinked (special shortcuts) from `/home` folder.
 
@@ -27,7 +27,7 @@ Also the root is accessible from tree, in the symlinked `Z-root` folder.
 
 ### /1/Apps
 
-<img src="/img/screen/treefolder/treeapps.png"/>
+![](img/screen/treefolder/treeapps.png)
 
 `/1/Apps` folder contains all user apps.
 
@@ -35,7 +35,7 @@ Only HTML5 apps are added to this folder. Usually they are Electron apps.
 
 ### /1/AppsOld
 
-<img src="/img/screen/treefolder/tree-apps-old.png"/>
+![](img/screen/treefolder/tree-apps-old.png)
 
 This folder contains classical apps (that aren`t in HTML5) and locally installable.
 
@@ -53,7 +53,7 @@ Subfolders:
 
 * `/Magazines`
 * `/Comics`
-* `/Documentations` (using MkDocs format)
+* `/Manuals` (using MkDocs format)
 * `/Scanned`
 
 ### /1/Orgs
@@ -74,13 +74,15 @@ Subfolder:
 
 Contains user`s fonts to be used on sites, slide presentations and other writings.
 
+These fonts are in web format (woff, woff2).
+
 ### /1/sourcecode
 
 Contains downloaded source codes user want to compile.
 
 ### /1/config
 
-<img src="/img/screen/treefolder/treeconfig.png"/>
+![](img/screen/treefolder/treeconfig.png)
 
 Contains all settings that Floflis and other HTML5 apps would need.
 
@@ -98,17 +100,19 @@ A example of contents inside `dat.json`:
 
 ### /1/Floflis
 
-<img src="/img/screen/treefolder/treefloflisfolder.png"/>
+![](img/screen/treefolder/treefloflisfolder.png)
 
 This is the system folder.
 
-It haves folders like the tree, except its `/Resources` folder.
+It haves folders like the tree, except its `/Resources` and `/libs` folder.
 
-<img src="/img/screen/treefolder/treeresources.png"/>
+![](img/screen/treefolder/treeresources.png)
 
-<img src="/img/screen/treefolder/treeresources-sounds.png"/>
+![](img/screen/treefolder/treeresources-sounds.png)
 
-<img src="/img/screen/treefolder/treeresourcesimg.png"/>
+![](img/screen/treefolder/treeresourcesimg.png)
+
+`/libs` folder contains [shared libs from Floflis](/dev/#reading-shared-libs).
 
 ## Symlinked folders
 
@@ -129,7 +133,7 @@ Contains a new subfolder made by Floflis: `/Scanned`.
 Compared to Linux it contains new subfolders:
 
 * `/Photos`
-* `/Printscreens/` (a friendly meaning for non-english languages)
+* `/Printscreens` (a friendly meaning for non-english languages)
 * `/Drawings`
 * `/Scanned`
 * `/Memes`
@@ -137,7 +141,12 @@ Compared to Linux it contains new subfolders:
 
 ### Music
 
-Simple symlink, no added subfolders.
+New subfolders:
+
+* `/Memes`
+* `/SFX`
+* `/Background`
+* `/Voice`
 
 ### Videos
 
@@ -146,13 +155,14 @@ New subfolders:
 * `/Series`
 * `/Movies`
 * `/Documentaries`
-* `/Animations` (contains the `/Anime` subfolder)
+* `/Animations` (contains the `/Animes` subfolder)
+* `/Memes`
 
 ### Downloads
 
 New subfolders:
 
-* `/Seed` (downloaded files you`re seeding on P2P network)
+* `/Seeding` (downloaded files you`re seeding on P2P network)
 
 ### Templates
 
@@ -160,4 +170,4 @@ Simple symlink, no added subfolders.
 
 ## Useful links
 
-* [Discussion that introduced tree folder](https://github.com/Floflis/Floflis-linux_x86/issues/58)
+* <a href="https://github.com/Floflis/Floflis-linux_x86/issues/58" target="blank">Discussion that introduced tree folder</a>

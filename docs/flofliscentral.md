@@ -10,10 +10,10 @@ No need to setup Floflis Central; it already ships with Floflis and automaticall
 
 After the classical Debian/Ubuntu installation, on first boot, Floflis Central installs all core settings and components.
 
-<img src="/img/screen/flofliscentral/root.png"/>
+![](img/screen/flofliscentral/root.png)
 
 Instead of storing user password, it asks for password for every sensible operation.
 
-<img src="/img/screen/flofliscentral/rootagain.png"/>
+![](img/screen/flofliscentral/rootagain.png)
 
 This is a autostart app, where users can read useful informations and manage Floflis.
