@@ -1,5 +1,7 @@
 ## Introduction
 
+**Note**: this documentation is yet a draft, as Floflis Substratum/Base isn't available yet.
+
 Floflis Central is the heart of the actual Floflis.
 
 This is more than a simple control panel/settings app; the app never thought to be a need on daily use.

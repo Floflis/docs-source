@@ -1,3 +1,5 @@
+**Note**: this documentation is yet a draft, as Floflis Core isn't available yet.
+
 ## Introduction
 Maybe you know how the Windows folders are well organized; on contrary of Linux, MacOS and Android.
 

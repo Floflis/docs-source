@@ -204,3 +204,7 @@ You will can develop:
 
 And you will have the possibility to distribute your productions to a decentralized store.
 Also, packagers for installing apps, games, fonts and others, and asking to install a .HTML5 file when clicking it.
+
+## Play with
+
+* [Sources](https://floflis.github.io/source/)
