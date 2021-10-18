@@ -146,11 +146,11 @@ To learn more about what is a HTML5 file, [click here](/floflisfiles/#html5).
 
 Just create a text file with the `.html5` extension, and put its content.
 
-To add a script, add its content inside a `<script>`.
+To add a script, add its content inside a `<script>` tag.
 
 To add a CSS is same as previous step, but with `<style>` tag.
 
-Do the same with images, using `base64` or `<SVG>`.
+Do the same with images, using `base64` format in `<img>` tag or use the `<svg>` tag.
 
 For `.HTML5` files, it isn't a recommended practice to load external script/css.
 
@@ -207,4 +207,4 @@ Also, packagers for installing apps, games, fonts and others, and asking to inst
 
 ## Play with
 
-* [Sources](https://floflis.github.io/source/)
+* [Sources](https://floflis.github.io/cli/source/)

@@ -1,10 +1,10 @@
 ## Introduction
 
-**Note**: this documentation is yet a draft, as Floflis Substratum/Base isn't available yet.
+**Note**: this documentation is yet a draft, as Floflis Grass/Base are't available yet.
 
 Floflis Central is the heart of the actual Floflis.
 
-This is more than a simple control panel/settings app; the app never thought to be a need on daily use.
+This is more than a simple control panel/settings app; the app never thought to be a need on daily use (as it also serves as a GUI for CJDNS/Yggdrasil, Dat and IPFS.
 
 ## Setup
 
@@ -14,7 +14,7 @@ After the classical Debian/Ubuntu installation, on first boot, Floflis Central i
 
 ![](img/screen/flofliscentral/root.png)
 
-Instead of storing user password, it asks for password for every sensible operation.
+Instead of storing user password, it asks password for every sensible operation.
 
 ![](img/screen/flofliscentral/rootagain.png)
 

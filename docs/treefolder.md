@@ -27,7 +27,7 @@ Some folders are original of tree, but others are symlinked (special shortcuts) 
 
 Also the root is accessible from tree, in the symlinked `Z-root` folder.
 
-### /1/Apps
+### /1/apps
 
 ![](img/screen/treefolder/treeapps.png)
 
@@ -35,50 +35,94 @@ Also the root is accessible from tree, in the symlinked `Z-root` folder.
 
 Only HTML5 apps are added to this folder. Usually they are Electron apps.
 
-### /1/AppsOld
+### /1/programs
 
 ![](img/screen/treefolder/tree-apps-old.png)
 
-This folder contains classical apps (that aren`t in HTML5) and locally installable.
+This folder contains classical apps (that aren't in HTML5) and locally installable.
 
 Other Linux/Debian/Ubuntu apps are also installable, without depending on this folder.
 
-### /1/Games
+### /1/games
 
 Contains HTML5 games.
 
-### /1/Books
+### /1/html5
 
-Contains user`s books, in any format.
+Contains HTML5 files. They can be simple applications or games.
+
+### /1/personal
 
 Subfolders:
 
-* `/Magazines`
-* `/Comics`
-* `/Manuals` (using MkDocs format)
-* `/Scanned`
+#### profile
 
-### /1/Orgs
+User's personal profile (Dat, Ethereum).
 
-Contains user`s organizations.
+#### site
 
-Hybridly, they are both Peeper pages and Aragon organizations.
+User's personal site.
 
-### /1/3D
+#### blog
 
-Contains 3D things from user. This folder isn`t yet very organized, as others. Suggestions and pull requests are welcome.
+User's personal blog, using Hugo.
+
+#### data
+
+Contains `tasks` and `issues` subfolders.
+
+#### badges
+
+Contains user's open badges.
+
+#### projects
+
+User's personal projects.
+
+#### token
+
+User's personal token (Ethereum).
+
+### /1/books
+
+Contains user's books, in any format.
+
+Subfolders:
+
+* `/magazines`
+* `/comics`
+* `/manuals` (preferrably MkDocs format, but can have others such as PDF)
+* `/scanned`
+
+### /1/orgs
+
+Contains user's organizations (Aragon).
+
+### /1/3d
+
+Contains 3D things from user. This folder isn't yet very organized, as others. Suggestions and pull requests are welcome.
 
 Subfolder:
 
-* `/Objects`
+* `/objects`
 
-### /1/Fonts
+### /1/libraries
 
-Contains user`s fonts to be used on sites, slide presentations and other writings.
+Libraries that user will only use indirectly or sometimes.
+
+Subfolders:
+
+#### /1/libraries/fonts
+
+Contains user's fonts to be used on sites, slide presentations and other writings.
 
 These fonts are in web format (woff, woff2).
 
-### /1/sourcecode
+#### /1/libraries/replic
+
+De-duplication of files, having only one symlinked in any place it need. Can be used by Dat and IPFS.
+
+### /1/src
 
 Contains downloaded source codes user want to compile.
 
@@ -86,7 +130,7 @@ Contains downloaded source codes user want to compile.
 
 ![](img/screen/treefolder/treeconfig.png)
 
-Contains all settings that Floflis and other HTML5 apps would need.
+Contains all settings that Floflis and other HTML5 apps would need. `Apps` and `Games` subfolders contains these data.
 
 A example of contents inside `dat.json`:
 
@@ -104,9 +148,7 @@ A example of contents inside `dat.json`:
 
 ![](img/screen/treefolder/treefloflisfolder.png)
 
-This is the system folder.
-
-It haves folders like the tree, except its `/Resources` and `/libs` folder.
+It's system folder. Haves folders like the tree (`apps`, `html5`, `programs`, `fonts`), except its `/system` and `/libs` folder. There isn't `/games` folder because they should be easily uninstallable.
 
 ![](img/screen/treefolder/treeresources.png)
 
@@ -114,61 +156,62 @@ It haves folders like the tree, except its `/Resources` and `/libs` folder.
 
 ![](img/screen/treefolder/treeresourcesimg.png)
 
-`/libs` folder contains [shared libs from Floflis](/dev/#reading-shared-libs).
+`/libs` folder contains [shared libs from Floflis](/dev/#reading-shared-libs) and system's `fonts` subdirectories.
 
 ## Symlinked folders
 
-### Z-root
+### /1/Z-root
 
 Magic folder giving access to root from tree.
 
-### Desktop
+### /1/desktop
 
 The same desktop displayed when you login, and as other symlinks, same from `/home` folder.
 
-### Documents
+### /1/documents
 
-Contains a new subfolder made by Floflis: `/Scanned`.
+Contains a new subfolder made by Floflis: `/scanned`.
 
-### Images
+### /1/images
 
 Compared to Linux it contains new subfolders:
 
-* `/Photos`
-* `/Printscreens` (a friendly meaning for non-english languages)
-* `/Drawings`
-* `/Scanned`
-* `/Memes`
-* `/GIFs`
+* `/photos`
+* `/printscreens` (a friendly meaning for non-english languages)
+* `/drawings`
+* `/scanned`
+* `/memes`
+* `/gifs`
+* `/icons`
 
-### Music
-
-New subfolders:
-
-* `/Memes`
-* `/SFX`
-* `/Background`
-* `/Voice`
-
-### Videos
+### /1/music
 
 New subfolders:
 
-* `/Series`
-* `/Movies`
-* `/Documentaries`
-* `/Animations` (contains the `/Animes` subfolder)
-* `/Memes`
+* `/memes`
+* `/sfx`
+* `/background`
+* `/voice`
 
-### Downloads
+### /1/videos
 
 New subfolders:
 
-* `/Seeding` (downloaded files you`re seeding on P2P network)
+* `/series`
+* `/movies`
+* `/documentaries`
+* `/animations` (contains the `/animes` subfolder)
+* `/memes`
 
-### Templates
+### /1/downloads
 
-Simple symlink, no added subfolders.
+New subfolders:
+
+* `/seeding` (downloaded files you're seeding on P2P network)
+
+### /1/templates
+
+Simple symlink, no added subfolders. Suggestions are welcome.
 
 ## Useful links
 

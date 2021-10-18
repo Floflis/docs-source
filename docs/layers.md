@@ -1,20 +1,21 @@
-Seeing the need to compress files to make smaller .ISO file, and to run Floflis in other platforms (routers, IoT, handheld gaming consoles), I had the idea of Floflis’ Layers, which makes Floflis modular and lightweight.
+## Introduction
+Seeing the need to compress files for smaller .ISO file, and to run Floflis in other platforms (routers, IoT, handheld gaming consoles), I had the idea of Floflis' Layers, which makes Floflis modular and lightweight.
 
 Bellow are the layers explained:
 
-## Recipe
+## Recipes
 
-Not a working layer, but it contains references of compilers (for any supported platform) and source-codes. Recipe layer will only be available after Core layer.
+Not a working layer, but it contains references of compilers (for any supported platform) and source-codes.
 
 ## DNA
 
-The most lightweight layer, focused on the most weak hardware (routers, IoT, etc).
+The most lightweight layer, focused on weaker hardware (routers, IoT, etc). It is the building blocks for the whole Floflis.
 Includes:
 
 * Floflis CLI
 * Installer
 
-Floflis `DNA` can upgrade to Floflis `Core` or just install need parts of it (and also from `Substratum`).
+Floflis `DNA` can upgrade to Floflis `Core` or just install need parts of it (and also from `Soil`).
 
 ## Core
 
@@ -25,20 +26,18 @@ Very lightweight, can run from a intermediary router to even a Nintendo DS. Focu
 * NodeJS
 * Dat protocol
 
-### PRO version
+## Soil
 
-Floflis Core PRO, despite its name, is totally free.
+Floflis Core can be upgraded to Soil layer, which contains:
 
-Floflis Core can be upgraded to its PRO version, which contains:
-
-* CLI web browser (Lynx)
+* CLI web browser (elinks)
 * CLI games
 * Sounds
 * Audio player
 
-## Substratum
+## Grass
 
-Initially thought for Playstation 2. Contains a very basic UI (remembers Windows 1/3) that remembers a CLI, although can render some graphics.
+Initially thought for Playstation 2. Contains a very basic UI (remembers Windows 1/3), although can render some graphics.
 
 * IPFS (with improvements to be lightweight)
 * Ethereum system/APIs
@@ -62,7 +61,7 @@ For intermediary computers.
 
 * Electron
 * HTML5Apps Platform
-* Firefox web browser (need to be compatible with Midori browser)
+* Firefox/Brave web browser (need to be compatible with Midori browser)
 * VLC Media Player
 
 ## Ultimate
@@ -87,16 +86,16 @@ So, this is the dependence scheme, including layers:
 ```
 BIOS/UEFI
   -- Unix/Firmware
-    -- Linux kernel
-      --Floflis DNA
-        -- Floflis Core
-          -- BSD/GNU OS/Debian
-            -- Floflis Substratum
-              -- Cinnamon Desktop Environment
-                -- Floflis Base
-                  -- Floflis Home
-                    -- Floflis Ultimate
-                       -- Floflis Quantum
+     -- Linux kernel
+        --Floflis DNA
+          -- Floflis Core
+             -- Floflis Soil
+                -- BSD/GNU OS/Debian
+                   -- Floflis Grass
+                      -- Floflis Base
+                         -- Floflis Home
+                            -- Floflis Ultimate
+                               -- Floflis Quantum
 ```
 
 Blog posts about the introduction of Layers: [1](https://floflis.github.io/blog/2019/07/floflis-layers-recipe-core-substratum-base-ultimate/), [2](https://floflis.github.io/blog/2019/07/new-layers-for-floflis-dna-and-home/).

@@ -1,6 +1,6 @@
 # Project information
 site_name: Floflis Docs
-site_description: 'Official documentation for Floflis OS'
+site_description: 'Official documentation for Floflis'
 site_author: 'Daniell Mesquita'
 site_url: 'https://floflis.github.io/docs'
 
@@ -9,7 +9,7 @@ repo_name: 'Floflis/docs-source'
 repo_url: 'https://github.com/Floflis/docs-source'
 
 # Copyright
-copyright: '(c) 2011-2019 Floflis OS'
+copyright: '(c) 2019 Floflis Platform'
 
 # Configuration
 theme:
@@ -45,9 +45,9 @@ nav:
     - Welcome to Floflis: index.md
     - Floflis Layers: layers.md
     - Installing: installing.md
-    - Floflis Central app (draft): flofliscentral.md
-    - Tree folder (draft): treefolder.md
-    - Floflis files: floflisfiles.md
-    - Developers: dev.md
+    - Floflis Central app (draft, outdated): flofliscentral.md
+    - Tree folder (WIP): treefolder.md
+    - Floflis files (draft): floflisfiles.md
+    - Developers (draft): dev.md
     - Frequently Asked Questions: faq.md
     - Return to site: https://floflis.github.io/

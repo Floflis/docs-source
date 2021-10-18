@@ -9,16 +9,15 @@ Actual dependence:
 Unix
   -- Linux kernel
     -- GNU OS/Debian
-      -- Cinnamon Desktop Environment
 ```
 
 We are open to replace Linux to any better kernel if it exists (not because of its CoC; the new kernel should have a inclusive Code of Conduct like Linux haves).
 
-Also, Floflis is already working to replace Cinnamon DE and Debian, while keeping backwards compatiblity.
+Also, Floflis is already working to replace Debian, while keeping backwards compatiblity.
 
 ## Can I install common Linux/Debian/Ubuntu apps on this HTML5 OS?
 
-Floflis isn't yet a HTML5 OS, but even when it becames one, you will ever have the possibility to install Linux programs on Floflis. And right now, you can install and use Linux programs. Also, there are lots of classical programs built-in and usable, such as CJDNS, Firefox, etc.
+Floflis isn't yet a HTML5 OS (althought Floflis Screens is - as based in Firefox OS), but even when it becames one, you will ever have the possibility to install Linux programs on Floflis. And right now, you can install and use Linux programs. Also, there are lots of classical programs built-in and usable, such as CJDNS, Firefox, etc.
 
 ## Why Floflis focuses on HTML5?
 

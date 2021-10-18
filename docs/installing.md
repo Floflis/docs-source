@@ -1,6 +1,6 @@
 ## Introduction
 
-After [downloading a version of Floflis](https://floflis.github.io/download/), read this page for official instructions on installing.
+After [downloading a version of Floflis](https://floflis.github.io/cli/download/), read this page for official instructions on installing.
 
 ## Before installing
 
@@ -44,9 +44,9 @@ Like on Linux, make sure you have BASH or any other compatible environment.
 
 Instructions for Windows are yet a draft. Please stay tuned in our [blog](https://floflis.github.io/blog/) for news.
 
-Install [Sygwin](https://www.cygwin.com/), make sure you have BASH or any other compatible environment.
+Install [Cygwin](https://www.cygwin.com/), make sure you have BASH or any other compatible environment.
 
-If you use Windows 10, there is no need to install Sygwin, you can install Ubuntu/BASH on it from Windows Store.
+If you use Windows 10, there is no need to install Cygwin, you can install Ubuntu/BASH/Windows subsystem for Linux on it from Windows Store.
 
 #### Android
 
@@ -66,13 +66,19 @@ Please stay tuned in our [blog](https://floflis.github.io/blog/) for news.
 
 #### Raspberry Pi
 
-See [here](https://www.howtoforge.com/tutorial/howto-install-raspbian-on-raspberry-pi/) how to install Linux on your Raspberry Pi device. Then, you can install Floflis DNA using [above instructions](#before-installing).
+See [here](https://www.howtoforge.com/tutorial/howto-install-raspbian-on-raspberry-pi/) how to install Linux on your Raspberry Pi device. Then, you can install Floflis DNA using [above instructions](#before-installing). Standalone distro soon.
 
 #### WiFi Routers
 
 See [here](https://www.instructables.com/id/How-To-Install-Linux-DD-WRT-Firmware-On-Your-Route/) how to install Linux on your WiFi router. Then, you can install Floflis DNA using [above instructions](#before-installing).
 
 #### Purism Librem phones
+
+Instructions soon.
+
+Please stay tuned in our [blog](https://floflis.github.io/blog/).
+
+#### KaiOS phones and other devices
 
 Instructions soon.
 
@@ -88,13 +94,13 @@ See [here](https://github.com/janvrany/riscv-debian) how to install Linux on you
 
 See [here](http://kernelloader.sourceforge.net/linux.html) how to install Linux on your PS2. Then, you can install Floflis DNA using [above instructions](#before-installing).
 
-Please note the ideal version for PS2 (Floflis Substratum, graphical evolution of Floflis Core), isn't yet available, but soon you will can upgrade Floflis DNA.
+Please note the ideal version for PS2 (Floflis Grass, graphical evolution of Floflis Soil), isn't yet available, but soon you will can upgrade Floflis DNA.
 
 #### PlayStation 3
 
 See [here](https://www.wikihow.com/Get-Linux-on-PlayStation-3) how to install Linux on your PS3. Then, you can install Floflis DNA using [above instructions](#before-installing).
 
-Please note the ideal version for PS3 (Floflis Base, evolution of Floflis Substratum), isn't yet available, but soon you will can upgrade Floflis DNA.
+Please note the ideal version for PS3 (Floflis Base, evolution of Floflis Grass), isn't yet available, but soon you will can upgrade Floflis DNA.
 
 #### PlayStation 4
 
@@ -134,7 +140,7 @@ See [here](http://www.gc-linux.org/wiki/Main_Page) how to install Linux on your 
 
 Soon, you will can upgrade Floflis DNA to Floflis Core, and will be magic when you use `CJDNS/Yggdrasil` + `Dat protocol/IPFS` using your Nintendo Ethernet/WiFi connection!
 
-Please note the ideal version for GC/Wii (Floflis Substratum, graphical evolution of Floflis Core), isn't yet available, but soon you will can upgrade Floflis DNA. For Nintendo Wii, Floflis Base (evolution of Floflis Substratum) may be the ideal.
+Please note the ideal version for GC/Wii (Floflis Grass, graphical evolution of Floflis Core), isn't yet available, but soon you will can upgrade Floflis DNA. For Nintendo Wii, Floflis Base (evolution of Floflis Grass) may be the ideal.
 
 ##### Wii U
 
@@ -144,25 +150,23 @@ See [here](http://nintendotoday.com/forum/wii-u/13874-how-install-ubuntu-your-wi
 
 See [here](https://gbatemp.net/threads/l4t-ubuntu-a-fully-featured-linux-on-your-switch.537301/) how to install Linux on your Switch. Then, you can install Floflis DNA using [above instructions](#before-installing).
 
-Soon, you will can upgrade Floflis DNA to Floflis Core, and will be magic when you use `CJDNS/Yggdrasil` + `Dat protocol/IPFS` using your Nintendo WiFi connection!
-
-Please note the ideal version for Switch (Floflis Home, graphical evolution of Floflis Base), isn't yet available, but soon you will can upgrade Floflis DNA to Core, Substratum, Base and Home.
+Please note the ideal version for Switch (Floflis Home, graphical evolution of Floflis Base), isn't yet available, but soon you will can upgrade Floflis DNA to Core, Soil, Grass, Base and Home.
 
 #### Notes
 
-Soon, Floflis will provide its own instructions and OS distros to run on these devices, and software installers for other OS.
+Soon, Floflis will provide its own instructions and standalone OS distros to run on these devices, and software installers for other OSes.
 
 Please stay tuned in our [blog](https://floflis.github.io/blog/) for news.
 
 ## Updating
 
-Update from P2P network (not available yet in DNA):
+Update from P2P network (not available yet):
 
 ```bash
 floflis update
 ```
 
-Update from GitLab (not working yet because GitLab is asking for login, and they didn't replied yet to our issue):
+Update from GitLab:
 
 ```bash
 floflis update --gitlab
