@@ -9,11 +9,7 @@ repo_name: 'Floflis/docs-source'
 repo_url: 'https://github.com/Floflis/docs-source'
 
 # Copyright
-<<<<<<< HEAD
 copyright: '(c) 2019-2021 Floflis Platform'
-=======
-copyright: '(c) 2019 Floflis Platform'
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 # Configuration
 theme:
@@ -59,10 +55,7 @@ nav:
     - Welcome to Floflis: index.md
     - Floflis Layers: layers.md
     - Installing: installing.md
-<<<<<<< HEAD
     - Updating: updating.md
-=======
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
     - Floflis Central app (draft, outdated): flofliscentral.md
     - Tree folder (WIP): treefolder.md
     - Floflis files (draft): floflisfiles.md
