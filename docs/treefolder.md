@@ -1,11 +1,13 @@
 **Note**: this documentation is yet a draft, as Floflis Core isn't available yet.
 
 ## Introduction
-Maybe you know how the Windows folders are well organized; on contrary of Linux, MacOS and Android.
+Maybe you know how the Windows folders are easily organized; on contrary of Linux, MacOS and Android.
 
-As root represents the complex structure of a tree, Floflis implemented the tree folder above the root.
+Its the small details - that some devs thinks as "insignificant" - what makes an OS pleasant to the normie users.
 
-**Let the root be used by nerds, and the tree for common users**.
+As root represents the complex, low-level structure of a tree: Floflis have implemented the tree folder above the root.
+
+**Let the root be used by nerds, and the tree for normal users**.
 
 ## The tree folder
 
@@ -15,27 +17,37 @@ Tree is a folder named "1" inside the root directory.
 
 While root address is referred as `/`, the tree is `/1`.
 
-Referring to Linux, tree is equivalent to `/home` folder, with write access granted to current user. But unlike on Linux, Floflis is made for personal device with a main user instead of multiple users. On newer versions Floflis will support multiple users with use of authorizations and pendrives.
-
-**Why not to use `/home` folder instead**? Because it is a mess.
+Outdated information -->
+Referring to Linux, tree is equivalent to `/home` folder, with write access granted to current user. But unlike on Linux, Floflis is made for personal device with a main user instead of multiple users. On newer versions Floflis will support multiple users with use of authorizations and external drives.
+<-- Outdated information
 
 ## Subfolders
 
 ![](img/screen/treefolder/thetree.png)
 
+Outdated information -->
 Some folders are original of tree, but others are symlinked (special shortcuts) from `/home` folder.
+<-- Outdated information
 
 Also the root is accessible from tree, in the symlinked `Z-root` folder.
 
+<<<<<<< HEAD
+### /1/apps (Draft, outdated)
+=======
 ### /1/apps
+>>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 ![](img/screen/treefolder/treeapps.png)
 
-`/1/Apps` folder contains all user apps.
+`/1/Apps` folder contains all user apps ([.apps](../floflisfiles/#apps) extension).
 
 Only HTML5 apps are added to this folder. Usually they are Electron apps.
 
+<<<<<<< HEAD
+### /1/programs (Draft, outdated)
+=======
 ### /1/programs
+>>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 ![](img/screen/treefolder/tree-apps-old.png)
 
@@ -44,29 +56,95 @@ This folder contains classical apps (that aren't in HTML5) and locally installab
 Other Linux/Debian/Ubuntu apps are also installable, without depending on this folder.
 
 ### /1/games
+<<<<<<< HEAD
 
-Contains HTML5 games.
+Contains HTML5 games ([.game](../floflisfiles/#game) extension).
+=======
+>>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
+### /1/html5
+
+<<<<<<< HEAD
+Contains HTML5 files ([.html5](../floflisfiles/#html5) extension). They can be simple applications or games.
+
+### /1/personal (Draft, outdated)
+=======
 ### /1/html5
 
 Contains HTML5 files. They can be simple applications or games.
 
 ### /1/personal
+>>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 Subfolders:
 
 #### profile
 
+<<<<<<< HEAD
+User's personal profile (Ethereum, IPFS, social networks).
+
+#### site
+
+User's personal site. If user don't have a non-blog site, the Hugo blog will be the site (so there won't be an need for the "blog" folder.
+=======
 User's personal profile (Dat, Ethereum).
 
 #### site
 
 User's personal site.
+>>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 #### blog
 
 User's personal blog, using Hugo.
 
+<<<<<<< HEAD
+This folder is only created if user already do have an non-blog site.
+
+#### data
+
+Contains `tasks` and `issues` subfolders.
+
+#### badges
+
+Contains user's open badges.?
+
+#### projects
+
+User's personal projects.
+
+#### token
+
+User's personal token (Ethereum).?
+
+### /1/books
+
+Contains user's books, in any format.
+
+Subfolders:
+
+* `/magazines`
+* `/comics`
+* `/manuals` (preferrably MkDocs format, but can have others such as PDF)
+* `/scanned`
+
+### /1/orgs
+
+Contains user's organizations (Aragon).?
+
+### /1/3d
+
+Contains 3D things from user. This folder isn't yet very organized, as others. Suggestions and pull requests are welcome.
+
+Subfolders:
+
+* `/objects`
+* `/scenes`
+
+`/objects`' subfolders:
+
+* `/voxels`
+=======
 #### data
 
 Contains `tasks` and `issues` subfolders.
@@ -101,9 +179,20 @@ Contains user's organizations (Aragon).
 ### /1/3d
 
 Contains 3D things from user. This folder isn't yet very organized, as others. Suggestions and pull requests are welcome.
+>>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
-Subfolder:
+### /1/libraries
 
+<<<<<<< HEAD
+![](img/screen/treefolder/treelibraries.png)
+
+Libraries that user will only use indirectly or sometimes.
+
+Subfolders:
+
+#### /1/libraries/fonts
+
+=======
 * `/objects`
 
 ### /1/libraries
@@ -114,6 +203,7 @@ Subfolders:
 
 #### /1/libraries/fonts
 
+>>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 Contains user's fonts to be used on sites, slide presentations and other writings.
 
 These fonts are in web format (woff, woff2).
@@ -132,17 +222,38 @@ Contains downloaded source codes user want to compile.
 
 Contains all settings that Floflis and other HTML5 apps would need. `Apps` and `Games` subfolders contains these data.
 
-A example of contents inside `dat.json`:
+An example of contents inside `user.json`:
 
 ```json
 {
-"type":"config/os",
-"url":{},
-"lang":"en-us",
-"title":"Floflis Settings - floflis",
-"user":"floflis"
+  "name": "daniella",
+  "eth": "0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91"
 }
 ```
+
+Example of contents inside `tokens.json`:
+
+```json
+{
+  "flof": {
+    "polygon": "30970.59",
+    "xdai": "30970.63",
+    "total": "61941.22"
+  }
+}
+```
+
+`tokens.json` is used only by [Floflis Central](../flofliscentral/) (so it can change, becoming a temporary file).
+
+Example of contents inside `personalization.json`:
+
+```json
+{
+  "background": "file:///usr/share/backgrounds/warty-final-ubuntu.png"
+}
+```
+
+`personalization.json` is used only by [Floflis Central](../flofliscentral/) (so it can change, becoming a temporary file).
 
 ### /1/Floflis
 

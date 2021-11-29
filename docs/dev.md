@@ -4,19 +4,22 @@ Create apps, games, .HTML5 files and fonts for Floflis.
 
 ### Introduction
 
-Pretty simple: just make a Electron app/game. It is recommended to also make it support Cordova (for doing mobile releases, and for upcoming mobile version of Floflis).
+Pretty simple: just make an Electron app/game (Construct 2/3 or GDevelop recommended).
+It is recommended to also make it support Cordova (for doing mobile releases, and for an upcoming/hypothetical mobile version of Floflis).
 
-**Note**: this app/game needs to have `electron` as module and support `npm start` command.
+**Note**: this app/game need to have `electron` as module and support `npm start` command. To guarantee better support, just symlink your `node_modules` to `/1/Floflis/libs/node_modules` (and don't forget to support `electron .` in your `npm start` script at `manifest.json`.
 
 ### Detect platform
 
 To support Floflis' features, you can do it by simply detecting if `/1` folder exists.
 
-**Note**: Instead, to make it more precise, detect if `/1/config/dat.json` exists.
+**Note**: For a more accurate check: detect if `/1/config/user.json` exists or check for `/etc/floflis-release`.
 
-So, you can focus on supporting Floflis without causing confusion on other Linux OSes.
+So, you can focus on supporting Floflis without causing confusion on other Linux OSes/platforms (MacOS, Windows' Cygwin/WSL, etc).
 
 ### Pin app/game
+
+Floflis Platform package for NPM, soon.
 
 #### Desktop
 
@@ -30,6 +33,8 @@ When building for Floflis, you can remove any asset that is already included wit
 
 Libraries are in `/1/Floflis/libs`. Root permission will be asked when adding a library, but not when reading.
 
+Common files for Construct 2 are included!
+
 #### Libraries
 
 * FrameworkJS
@@ -39,7 +44,7 @@ Libraries are in `/1/Floflis/libs`. Root permission will be asked when adding a 
 * UmbrellaJS
 * Slick
 
-Todolist is FrameworkJS not having built-in libraries and fonts, but building it depending on target platform.
+Todolist is FrameworkJS not having built-in libraries and fonts, but building it depending on target platform (possibly using Plugz).
 
 #### Fonts
 
@@ -58,7 +63,7 @@ To read a font, just reference to its `font.css` file.
 
 This guide teaches, for every kind of app/game, where to store files produced by its users.
 
-#### Reading app
+#### Reading app (draft, outdated)
 
 * Books: `/1/Books`
 * Magazines: `/1/Books/Magazines`
@@ -68,20 +73,22 @@ This guide teaches, for every kind of app/game, where to store files produced by
 * Other kind of document: `{homefolder}/Documents`
 * Scanned documents: `{homefolder}/Documents/Scanned`
 
-#### 3D app
+#### 3D app (draft, outdated)
 
 This folder isn`t yet very organized, as others. Suggestions and pull requests are welcome.
 
 * Any kind of 3D files: `/1/3D`
 * 3D objects: `/1/3D/Objects`
+* 3D voxel objects: `/1/3D/Objects/voxels`
+* 3D scenes: `/1/3d/scenes`
 
-#### Browsers/code editors/compilers
+#### Browsers/code editors/compilers (draft, outdated)
 
-Source-codes should be saved into `/1/sourcecode`.
+Source-codes should be saved into `/1/sourcecode`.?
 
-Web browsers would also ask to save `.tar.gz` in this folder instead of `{homefolder}/Downloads` folder.
+Web browsers would also ask to save `.tar.gz` in this folder instead of `{homefolder}/Downloads` folder.?
 
-#### Imaging app
+#### Imaging app (draft, outdated)
 
 Normal images/graphics are stored in `{homefolder}/Pictures`.
 
@@ -92,7 +99,7 @@ Normal images/graphics are stored in `{homefolder}/Pictures`.
 * Memes: `/Pictures/Memes`
 * GIFs: `/Pictures/GIFs`
 
-#### Video app
+#### Video app (draft, outdated)
 
 Normal videos are stored in `{homefolder}/Videos`.
 
@@ -103,7 +110,7 @@ Normal videos are stored in `{homefolder}/Videos`.
 * Animes: `/Videos/Animations/Animes`
 * Memes: `/Videos/Memes`
 
-#### Music app
+#### Music app (draft, outdated)
 
 Normal music are stored in `{homefolder}/Music`.
 
@@ -112,7 +119,7 @@ Normal music are stored in `{homefolder}/Music`.
 * Background music: `/Music/Background`
 * Voice notes/recording: `/Music/Voice`
 
-#### Downloads app
+#### Downloads app (draft)
 
 Files that user is seeding are stored in `{homefolder}/Downloads/Seeding` folder.
 
@@ -120,11 +127,11 @@ Files that user is seeding are stored in `{homefolder}/Downloads/Seeding` folder
 
 ### Where to install it
 
-If your app haves a install script, point it to `/1/Apps`.
+If your app haves a install script, point it to `/1/apps`.
 
 ### Where to install app's user data
 
-Put all app's user data in JSON files inside `/1/config/Apps/{your-app-name}` folder.
+Put all app's user data in JSON files inside `/1/config/apps/{your-app-name}` folder.
 
 ## Game developers
 
@@ -132,13 +139,15 @@ Put all app's user data in JSON files inside `/1/config/Apps/{your-app-name}` fo
 
 You can develop games using the Floflis' built-in game engine: GDevelop. But you can use other if you prefer, althought GDevelop is the easiest.
 
-### Where to install it
+Construct 2 proved to be useful not only for developing professional games, but also apps (Floflis Central is made in Construct 2).
 
-If your game haves a install script, point it to `/1/Games`.
+### Where to install it (draft, outdated)
+
+If your game haves a install script, point it to `/1/games`.
 
 ### Where to install game's user data
 
-Put all game's user data in JSON files inside `/1/config/Games/{your-app-name}` folder.
+Put all game's user data in JSON files inside `/1/config/games/{your-app-name}` folder.
 
 ## .HTML5 file developers
 
@@ -150,7 +159,11 @@ To add a script, add its content inside a `<script>` tag.
 
 To add a CSS is same as previous step, but with `<style>` tag.
 
+<<<<<<< HEAD
+Do the same with images, using `base64` format in `<img>` tag or use a inline `<svg>` tag.
+=======
 Do the same with images, using `base64` format in `<img>` tag or use the `<svg>` tag.
+>>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 For `.HTML5` files, it isn't a recommended practice to load external script/css.
 
@@ -196,14 +209,15 @@ You can simply distribute your fonts as compressed files, althought they aren't 
 
 ## Soon, new developments
 
-You will can develop:
+These will be available to develop:
 
 * Screensavers
 * Themes
+* NFT backgrounds and themes (UniStore)
 * others
 
 And you will have the possibility to distribute your productions to a decentralized store.
-Also, packagers for installing apps, games, fonts and others, and asking to install a .HTML5 file when clicking it.
+Also, packagers for installing apps, games, fonts and others; and asking to install a .HTML5 file when clicking it.
 
 ## Play with
 

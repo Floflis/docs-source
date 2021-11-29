@@ -9,7 +9,11 @@ repo_name: 'Floflis/docs-source'
 repo_url: 'https://github.com/Floflis/docs-source'
 
 # Copyright
+<<<<<<< HEAD
+copyright: '(c) 2019-2021 Floflis Platform'
+=======
 copyright: '(c) 2019 Floflis Platform'
+>>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 # Configuration
 theme:
@@ -24,8 +28,18 @@ extra:
   manifest: 'manifest.webmanifest'
 extra:
   social:
-    - type: 'github'
+    - icon: fontawesome/brands/github-alt
       link: 'https://github.com/floflis'
+    - icon: fontawesome/brands/twitter
+      link: 'https://twitter.com/FloflisOS'
+    - icon: fontawesome/brands/youtube
+      link: 'https://www.youtube.com/channel/UCqboYZIRwremiHzqcvBdlYg'
+    - icon: fontawesome/brands/discord
+      link: 'https://discord.gg/kcnYFqp'
+    - icon: fontawesome/brands/gitlab
+      link: 'https://gitlab.com/floflis'
+    - icon: fontawesome/solid/globe-europe
+      link: 'https://floflis.github.io'
 
 # Extensions
 markdown_extensions:
@@ -45,6 +59,10 @@ nav:
     - Welcome to Floflis: index.md
     - Floflis Layers: layers.md
     - Installing: installing.md
+<<<<<<< HEAD
+    - Updating: updating.md
+=======
+>>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
     - Floflis Central app (draft, outdated): flofliscentral.md
     - Tree folder (WIP): treefolder.md
     - Floflis files (draft): floflisfiles.md
