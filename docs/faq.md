@@ -8,28 +8,14 @@ Actual dependence:
 ```
 Unix
   -- Linux kernel
-<<<<<<< HEAD
     -- GNU OS/Debian/Ubuntu (or RaspiOS)
-=======
-    -- GNU OS/Debian
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 ```
 
 ## Floflis focuses on HTML5?
 
-<<<<<<< HEAD
 Floflis Central is made in HTML5. Etcher, IPFS Desktop, Aragon, Frame and others are, too.
 
 But the shell and the prompt are Rust!
-=======
-Also, Floflis is already working to replace Debian, while keeping backwards compatiblity.
-
-## Can I install common Linux/Debian/Ubuntu apps on this HTML5 OS?
-
-Floflis isn't yet a HTML5 OS (althought Floflis Screens is - as based in Firefox OS), but even when it becames one, you will ever have the possibility to install Linux programs on Floflis. And right now, you can install and use Linux programs. Also, there are lots of classical programs built-in and usable, such as CJDNS, Firefox, etc.
-
-## Why Floflis focuses on HTML5?
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 HTML5 apps are JavaScript apps.
 JavaScript is the most popular programming language, and lots of enterprises are easily porting their web apps to Electron/Cordova for keeping an unified code base.

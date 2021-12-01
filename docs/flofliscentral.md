@@ -5,19 +5,12 @@
 ## Introduction
 
 **Note**: this documentation is yet a draft, as Floflis Grass/Base are't available yet.
-<<<<<<< HEAD
 
 More than a settings aggregator; its a dashboard for your web3 profile.
-=======
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 Floflis Central is the heart of the current Floflis.
 
-<<<<<<< HEAD
 ![](img/screen/flofliscentral/screenshot2.png)
-=======
-This is more than a simple control panel/settings app; the app never thought to be a need on daily use (as it also serves as a GUI for CJDNS/Yggdrasil, Dat and IPFS.
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 ## Setup (draft, outdated)
 

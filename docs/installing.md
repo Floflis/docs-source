@@ -67,7 +67,6 @@ Please stay tuned in our [blog](https://floflis.github.io/blog/) for news.
 
 #### Raspberry Pi
 
-<<<<<<< HEAD
 See [here](https://learn.adafruit.com/adafruit-raspberry-pi-lesson-1-preparing-and-sd-card-for-your-raspberry-pi/balena-etcher/) how to install Linux on your Raspberry Pi device. Then, you can install Floflis DNA using [above instructions](#before-installing).
 **Standalone distro is being worked**, and will be released soon; so you will flash Floflis directly.
 
@@ -75,9 +74,6 @@ See [here](https://learn.adafruit.com/adafruit-raspberry-pi-lesson-1-preparing-a
 
 See [here](https://wiki.ubuntu.com/RISC-V) how to install Linux on your RISC-V device. Then, you can install Floflis DNA using [above instructions](#before-installing).
 **Standalone distro is being worked**, and will be released soon; so you will flash Floflis directly.
-=======
-See [here](https://www.howtoforge.com/tutorial/howto-install-raspbian-on-raspberry-pi/) how to install Linux on your Raspberry Pi device. Then, you can install Floflis DNA using [above instructions](#before-installing). Standalone distro soon.
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 #### WiFi Routers
 
@@ -89,17 +85,7 @@ Instructions soon.
 
 Please stay tuned in our [blog](https://floflis.github.io/blog/).
 
-<<<<<<< HEAD
 #### Pinephone/other Pine64 devices
-=======
-#### KaiOS phones and other devices
-
-Instructions soon.
-
-Please stay tuned in our [blog](https://floflis.github.io/blog/).
-
-#### RISC-V boards
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 Instructions soon.
 
@@ -109,21 +95,13 @@ Please stay tuned in our [blog](https://floflis.github.io/blog/).
 
 See [here](http://kernelloader.sourceforge.net/linux.html) how to install Linux on your PS2. Then, you can install Floflis DNA using [above instructions](#before-installing).
 
-<<<<<<< HEAD
 Please note the ideal version for PS2 (Floflis Grass, graphical evolution of Floflis Soil), isn't yet available, but soon you will be able to upgrade Floflis DNA.
-=======
-Please note the ideal version for PS2 (Floflis Grass, graphical evolution of Floflis Soil), isn't yet available, but soon you will can upgrade Floflis DNA.
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 #### PlayStation 3
 
 See [here](https://www.wikihow.com/Get-Linux-on-PlayStation-3) how to install Linux on your PS3. Then, you can install Floflis DNA using [above instructions](#before-installing).
 
-<<<<<<< HEAD
 Please note the ideal version for PS3 (Floflis Base, evolution of Floflis Grass), isn't yet available, but soon you will be able to upgrade Floflis DNA.
-=======
-Please note the ideal version for PS3 (Floflis Base, evolution of Floflis Grass), isn't yet available, but soon you will can upgrade Floflis DNA.
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 #### PlayStation 4
 
@@ -169,13 +147,7 @@ Please note the ideal version for 3DS (Floflis Soil, evolution of Floflis Core),
 
 See [here](http://www.gc-linux.org/wiki/Main_Page) how to install Linux on your Nintendo Game Cube and Wii. Then, you can install Floflis DNA using [above instructions](#before-installing).
 
-<<<<<<< HEAD
 Please note the ideal version for GC/Wii (Floflis Grass, graphical evolution of Floflis Soil), isn't yet available, but soon you will be able to upgrade Floflis DNA. For Nintendo Wii, Floflis Base (evolution of Floflis Grass) may be the ideal.
-=======
-Soon, you will can upgrade Floflis DNA to Floflis Core, and will be magic when you use `CJDNS/Yggdrasil` + `Dat protocol/IPFS` using your Nintendo Ethernet/WiFi connection!
-
-Please note the ideal version for GC/Wii (Floflis Grass, graphical evolution of Floflis Core), isn't yet available, but soon you will can upgrade Floflis DNA. For Nintendo Wii, Floflis Base (evolution of Floflis Grass) may be the ideal.
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 ##### Wii U
 
@@ -187,11 +159,7 @@ Please note the ideal version for WiiU (Floflis Base, evolution of Floflis Grass
 
 See [here](https://gbatemp.net/threads/l4t-ubuntu-a-fully-featured-linux-on-your-switch.537301/) how to install Linux on your Switch. Then, you can install Floflis DNA using [above instructions](#before-installing).
 
-<<<<<<< HEAD
 Please note the ideal version for Switch (Floflis Home, evolution of Floflis Base), isn't yet available, but soon you will be able to upgrade Floflis DNA to Core, Soil, Grass, Base and Home.
-=======
-Please note the ideal version for Switch (Floflis Home, graphical evolution of Floflis Base), isn't yet available, but soon you will can upgrade Floflis DNA to Core, Soil, Grass, Base and Home.
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 #### Notes
 
@@ -201,24 +169,4 @@ Please stay tuned in our [blog](https://floflis.github.io/blog/) for news.
 
 ## Updating
 
-<<<<<<< HEAD
 Visit the [Updating session](../updating).
-=======
-Update from P2P network (not available yet):
-
-```bash
-floflis update
-```
-
-Update from GitLab:
-
-```bash
-floflis update --gitlab
-```
-
-Update from GitHub:
-
-```bash
-floflis update --github
-```
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b

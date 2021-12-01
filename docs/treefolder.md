@@ -31,11 +31,7 @@ Some folders are original of tree, but others are symlinked (special shortcuts) 
 
 Also the root is accessible from tree, in the symlinked `Z-root` folder.
 
-<<<<<<< HEAD
 ### /1/apps (Draft, outdated)
-=======
-### /1/apps
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 ![](img/screen/treefolder/treeapps.png)
 
@@ -43,11 +39,7 @@ Also the root is accessible from tree, in the symlinked `Z-root` folder.
 
 Only HTML5 apps are added to this folder. Usually they are Electron apps.
 
-<<<<<<< HEAD
 ### /1/programs (Draft, outdated)
-=======
-### /1/programs
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 ![](img/screen/treefolder/tree-apps-old.png)
 
@@ -56,49 +48,29 @@ This folder contains classical apps (that aren't in HTML5) and locally installab
 Other Linux/Debian/Ubuntu apps are also installable, without depending on this folder.
 
 ### /1/games
-<<<<<<< HEAD
 
 Contains HTML5 games ([.game](../floflisfiles/#game) extension).
-=======
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 ### /1/html5
 
-<<<<<<< HEAD
 Contains HTML5 files ([.html5](../floflisfiles/#html5) extension). They can be simple applications or games.
 
 ### /1/personal (Draft, outdated)
-=======
-### /1/html5
-
-Contains HTML5 files. They can be simple applications or games.
-
-### /1/personal
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 Subfolders:
 
 #### profile
 
-<<<<<<< HEAD
 User's personal profile (Ethereum, IPFS, social networks).
 
 #### site
 
 User's personal site. If user don't have a non-blog site, the Hugo blog will be the site (so there won't be an need for the "blog" folder.
-=======
-User's personal profile (Dat, Ethereum).
-
-#### site
-
-User's personal site.
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 #### blog
 
 User's personal blog, using Hugo.
 
-<<<<<<< HEAD
 This folder is only created if user already do have an non-blog site.
 
 #### data
@@ -144,46 +116,9 @@ Subfolders:
 `/objects`' subfolders:
 
 * `/voxels`
-=======
-#### data
-
-Contains `tasks` and `issues` subfolders.
-
-#### badges
-
-Contains user's open badges.
-
-#### projects
-
-User's personal projects.
-
-#### token
-
-User's personal token (Ethereum).
-
-### /1/books
-
-Contains user's books, in any format.
-
-Subfolders:
-
-* `/magazines`
-* `/comics`
-* `/manuals` (preferrably MkDocs format, but can have others such as PDF)
-* `/scanned`
-
-### /1/orgs
-
-Contains user's organizations (Aragon).
-
-### /1/3d
-
-Contains 3D things from user. This folder isn't yet very organized, as others. Suggestions and pull requests are welcome.
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 ### /1/libraries
 
-<<<<<<< HEAD
 ![](img/screen/treefolder/treelibraries.png)
 
 Libraries that user will only use indirectly or sometimes.
@@ -192,18 +127,6 @@ Subfolders:
 
 #### /1/libraries/fonts
 
-=======
-* `/objects`
-
-### /1/libraries
-
-Libraries that user will only use indirectly or sometimes.
-
-Subfolders:
-
-#### /1/libraries/fonts
-
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 Contains user's fonts to be used on sites, slide presentations and other writings.
 
 These fonts are in web format (woff, woff2).

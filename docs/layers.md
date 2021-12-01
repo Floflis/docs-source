@@ -1,5 +1,4 @@
 ## Introduction
-<<<<<<< HEAD
 Seeing the need to compress files for smaller .iso/.img files, and to run Floflis in other platforms (routers, IoT, handheld gaming consoles): I had the idea of Floflis' Layers, which makes Floflis modular and lightweight.
 
 Bellow are the layers explained:
@@ -13,29 +12,13 @@ Not a working layer, but it contains references of compilers (for any supported 
 <img src="../img/brand/1-dna.png">
 
 The first and most lightweight layer, focused on weaker hardware (routers, IoT, etc). It is the building blocks for the upper layers and for the whole Floflis.
-=======
-Seeing the need to compress files for smaller .ISO file, and to run Floflis in other platforms (routers, IoT, handheld gaming consoles), I had the idea of Floflis' Layers, which makes Floflis modular and lightweight.
 
-Bellow are the layers explained:
-
-## Recipes
-
-Not a working layer, but it contains references of compilers (for any supported platform) and source-codes.
-
-## DNA
-
-The most lightweight layer, focused on weaker hardware (routers, IoT, etc). It is the building blocks for the whole Floflis.
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 Includes:
 
 * Floflis CLI
 * Installer
 
-<<<<<<< HEAD
 Floflis `DNA` can upgrade to Floflis `Core` or just install need parts of it (as `Core` can install some features from `Soil`).
-=======
-Floflis `DNA` can upgrade to Floflis `Core` or just install need parts of it (and also from `Soil`).
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 ## Core
 
@@ -52,7 +35,6 @@ Very lightweight, can run from an intermediary router to even an Nintendo DS. Fo
 Despite being listed as an layer to where `Core` can upgrade into, its an extension to Floflis Core.
 The `Core` layer doesn't depends upon the `Server` layer to upgrade into `Soil`.
 
-<<<<<<< HEAD
 As the name suggests, this layer is focused on servers.
 
 ## Soil
@@ -61,23 +43,14 @@ As the name suggests, this layer is focused on servers.
 
 Floflis Core can be upgraded to Soil layer, which contains:
 
-=======
-## Soil
-
-Floflis Core can be upgraded to Soil layer, which contains:
-
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 * CLI web browser (elinks)
 * CLI games
 * Sounds
 * Audio player
 
 ## Grass
-<<<<<<< HEAD
 
 <img src="../img/brand/4-grass.png">
-=======
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 Initially thought for Playstation 2. Contains a very basic UI (remembers Windows 1/3), although can render some graphics.
 
@@ -107,13 +80,8 @@ For intermediary computers.
 
 * Electron
 * HTML5Apps Platform
-<<<<<<< HEAD
 * Firedoge web browser (need to be compatible with Midori browser)
 * VLC Media Player?
-=======
-* Firefox/Brave web browser (need to be compatible with Midori browser)
-* VLC Media Player
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 ## Ultimate
 

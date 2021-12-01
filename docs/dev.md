@@ -159,11 +159,7 @@ To add a script, add its content inside a `<script>` tag.
 
 To add a CSS is same as previous step, but with `<style>` tag.
 
-<<<<<<< HEAD
 Do the same with images, using `base64` format in `<img>` tag or use a inline `<svg>` tag.
-=======
-Do the same with images, using `base64` format in `<img>` tag or use the `<svg>` tag.
->>>>>>> 00eaafe8877adeef389e7acd16a565c6bb54398b
 
 For `.HTML5` files, it isn't a recommended practice to load external script/css.
 
