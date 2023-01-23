@@ -1,7 +1,7 @@
 # Project information
 site_name: Floflis Docs
 site_description: 'Official documentation for Floflis'
-site_author: 'Daniell Mesquita'
+site_author: 'Daniella Mesquita'
 site_url: 'https://floflis.github.io/docs'
 
 # Repository
@@ -9,7 +9,7 @@ repo_name: 'Floflis/docs-source'
 repo_url: 'https://github.com/Floflis/docs-source'
 
 # Copyright
-copyright: '(c) 2019-2021 Floflis Platform'
+copyright: '(c) 2019-2023 Floflis Platform'
 
 # Configuration
 theme:
